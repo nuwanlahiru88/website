@@ -1,0 +1,158 @@
+<div class="portfolioDetail">
+
+    <!-- NAVBAR -->
+    <section class="lightSection portfolioNavbar">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 text-center">
+                    <div class="navBut animate prevPortfolio">Prev<span class="invisible767">ious project</span></div>
+                    <div class="navBut animate closePortfolio icon_grid-3x3"></div>
+                    <div class="navBut animate nextPortfolio">Next <span class="invisible767">project</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO CONTAINER-->
+    <div class="folioContainer">
+
+        <!--Title section -->
+        <section class="orangeSection imageBackground img4Bkg bkg-responsive marginTop73 paddingTop25p paddingB10p folioDetailParallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="textContainer">
+                            <div class="bigText">Newyork</div>
+                            <div class="bigText">Parallax Template</div>
+                            <div class="mediumText">Print / Photography / Illustration</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Case study section-->
+        <section class="obliqueCut lightSection separatorTop paddingTop30 paddingBottom30">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 L100 0 L100 100 Z"></path>
+            </svg>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="featureBox">
+                            <h2 class="smallSectionTitle">Case study</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing. Quisque congue dui et justo vulputate, eget vehicula lorem fringilla. Vestibulum vitae edor dolor euimod, scelerisque emenim sed, consectetur nibh. Suspendisse a vulputate ante. Suspendisse ipsum massa, condimentum sit amet sem non, tincidunt blandit nibh. Curabitur volutpat commodo nunc, ac rhoncus nibh. Maecenas gravida, mi ornare imperdiet lobortis, tellus odio fermentum neque, placerat semper tellus mauris ut mi.</p>
+                            <p>Aenean suscipit euismod commodo. Morbi id quam ligula. Suspendisse ultrices erat ut justo hendrerit, vitae ultrices odio adipiscing. Phasellus eget leo augue. Quisque sit amet justo malesuada, sodales mi in, aliquam elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <div class="widget">
+                            <h3 class="titleColor widget-title">Client</h3>
+                            <p class="descriptionColor categoryElement">El Corcho</p>
+                            <p class="categoryElement"><a href="#">www.newyork.com</a></p>
+                        </div>
+                        <div class="widget">
+                            <h3 class="titleColor widget-title">Services</h3>
+                            <p class="descriptionColor categoryElement">Art Direction / Graphic Desigh</p>
+                        </div>
+                        <div class="widget">
+                            <h3 class="titleColor widget-title">Tools</h3>
+                            <p class="descriptionColor categoryElement">Adobe Illustrator / Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Featured work section-->
+        <section id="sFeaturedWork" class="lightSection separatorTop paddingBottom30 overflowHidden">
+            <div class="fwCarouselContainer carouselContainer">
+                <ul class="fwCarousel magPopupUlinScript">
+                    <li class="scaleRotateImg">
+                        <img alt="Image" src="images/feat01small.jpg" data-mfp-src="images/feat01.jpg" class="img-responsive animate" /></li>
+                    <li class="scaleRotateImg">
+                        <img alt="Image" src="images/feat02small.jpg" data-mfp-src="images/feat02.jpg" class="img-responsive animate" /></li>
+                    <li class="scaleRotateImg">
+                        <img alt="Image" src="images/feat03small.jpg" data-mfp-src="images/feat03.jpg" class="img-responsive animate" /></li>
+                    <li class="scaleRotateImg">
+                        <img alt="Image" src="images/feat04small.jpg" data-mfp-src="images/feat04.jpg" class="img-responsive animate" /></li>
+                    <li class="scaleRotateImg">
+                        <img alt="Image" src="images/feat05small.jpg" data-mfp-src="images/feat05.jpg" class="img-responsive animate" /></li>
+                    <li class="scaleRotateImg">
+                        <img alt="Image" src="images/feat06small.jpg" data-mfp-src="images/feat06.jpg" class="img-responsive animate" /></li>
+                </ul>
+                <span class="Prev animate">
+                    <img alt="Previous" src="images/prev.png" /></span>
+                <span class="Next animate">
+                    <img alt="Next" src="images/next.png" /></span>
+            </div>
+        </section>
+
+        <!-- Client feedback section-->
+        <section class="lightSection paddingTop30 paddingBottom135">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="feedback">
+                            <h3 class="titleColor smallSectionTitle">Client feedback</h3>
+                            <img alt="Author" src="images/author1.jpg" class="avatar img-responsive" />
+                            <p>I would recommend <span class="titleColor">Untitled</span> Theme to anyone who wants to have a creative portfolio, either design studio or freelancer.</p>
+                            <p class="author titleColor">Mark Stringer - <span class="descriptionColor"><a href="#">elcorcho.com</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Script for intializing this portfolio item-->
+        <script type="text/javascript">
+
+            //** Featured Work Carousel
+            imagesLoaded($('.fwCarousel'), function (instance) {
+                carousel = $('.fwCarousel').startTransparencyCarousel(3, { auto: MYAPP.carouselsAuto['portfolioFeaturedWorkCarousel'] });
+            });
+
+            if (MYAPP.isMobile) {
+                //** Remove animations on mobile devices (performance reasons)
+                $('.portfolioDetail .animate').each(function () { $(this).removeClass('animate'); });
+                $('.portfolioDetail .animateFast').each(function () { $(this).removeClass('animateFast'); });
+            }
+            else
+            { //** NOT Mobile
+                function DoParallaxEffect(that) {
+                    scrollPos = $(that).scrollTop();
+                    $('.folioDetailParallax').css({ 'background-position': '50% ' + (scrollPos / 1.5) + "px" });
+                    $('.textContainer').css({
+                        'margin-top': (scrollPos / 4) + "px",
+                        'opacity': 1 - (scrollPos / 250),
+                    });
+                }
+
+                $('.untitledModal').on('scroll', function () { DoParallaxEffect($(this)); });
+            }
+
+            $('.magPopupUlinScript').magnificPopup({ delegate: 'li img', type: 'image', gallery: { enabled: true }, zoom: { enabled: true } });
+        </script>
+
+    </div>
+    <!--END PORTFOLIO CONTAINER-->
+
+    <!--FOOTER-->
+    <footer id="footer" class="obliqueCut lightSection graySection separatorTop">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M0 100 L100 0 L100 100 Z"></path>
+        </svg>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-left">
+                    <div><span class="highlight">&copy; untitled</span> All rights Reserved</div>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <div>Theme designed by <a href="http://nasfactor.com" class="highlight">Nasirwd.</a> nasfactor.com</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+

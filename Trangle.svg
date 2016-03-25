@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.01471in" height="2.22407in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4.01471 2.22407"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#AAA9A9;stroke-width:0.00694488}
+    .str0 {stroke:#DEDEDD;stroke-width:0.0138898}
+    .fil0 {fill:none}
+    .fil1 {fill:#AAA9A9;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M0.800177 1.21623l1.20957 -1.20643 1.21981 1.23184 -0.648366 0.648366 -0.558594 -0.550606 -0.00123228 0.00125591 -0.54948 0.544539 -0.671709 -0.668972z"/>
+   </clipPath>
+    <clipPath id="id1">
+     <path d="M0.800177 1.21623l1.20957 -1.20643 1.21981 1.23184 -0.648366 0.648366 -0.558594 -0.550606 -0.00123228 0.00125591 -0.54948 0.544539 -0.671709 -0.668972z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M0.800177 1.21623l1.20957 -1.20643 1.21981 1.23184 -0.648366 0.648366 -0.558594 -0.550606 -0.00123228 0.00125591 -0.54948 0.544539 -0.671709 -0.668972z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+   </g>
+   <g style="clip-path:url(#id1)">
+    <image id="new.jpg" transform="matrix(0.268378 0 0 0.268378 -3.00205 2.93685)" x="2.00735" y="-12.8835" width="21.3333" height="14.2292" xlink:href="Trangle_Images\Trangle_ImgID1.jpg"/>
+   </g>
+   <g style="clip-path:url(#id2)">
+   </g>
+  </g>
+  <polygon class="fil0 str0" points="0.800177,1.21623 2.00974,0.00980709 3.22956,1.24165 2.58119,1.89002 2.0226,1.33941 2.02137,1.34067 1.47189,1.8852 "/>
+  <polygon class="fil1" points="2.03693,1.46857 1.28207,2.21713 1.24273,2.21713 2.01739,1.44893 "/>
+  <polygon class="fil1" points="1.64992,2.21713 1.151,1.71821 1.17064,1.69857 1.6892,2.21713 "/>
+  <polygon class="fil1 str1" points="2.02347,1.45506 2.78554,2.21713 2.74626,2.21713 2.00383,1.4747 "/>
+  <polygon class="fil1" points="2.34151,2.21713 2.88803,1.67061 2.90767,1.69025 2.38079,2.21713 "/>
+  <polygon class="fil0 str0" points="2.68778,2.01003 3.33804,1.35977 4.00489,2.02662 3.81438,2.21713 2.89676,2.21713 "/>
+  <polygon class="fil0 str0" points="0.0098189,2.01469 0.676669,1.34785 1.34352,2.01469 1.14108,2.21713 0.212256,2.21713 "/>
+ </g>
+</svg>

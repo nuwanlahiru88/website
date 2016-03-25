@@ -1,0 +1,81 @@
+.investments-box .columns{
+	height:100%;
+	display:table-row;
+	padding:0px;
+}
+
+.investments-box .columns .investment-img{
+	height:66.66%;
+	display:block;
+	overflow:hidden;
+	z-index:1;
+	position:relative;
+}
+.investments-box .columns .investment-img img{
+	width:100%;
+}
+.investments-box .columns .investment-text{
+	height:33.33%;
+	display:block;
+	overflow:hidden;
+	z-index:3;
+	position:relative;
+}
+div.dark-gray{
+	background: rgb(36, 43, 49);
+}
+ 
+.investments-box .columns .investment-text a{ 
+	 display: block;
+	 position:absolute;
+	 bottom:0; 
+	left: 0; 
+	width: 100%;
+	background-color: #B7C5C8;
+	z-index:4; 
+	padding: 10px;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 0.8em;
+	line-height: 140%;
+	color: rgb(39,48,52);
+	text-align: center;
+	text-decoration: none;
+	text-transform:uppercase;
+	
+}
+
+.investments-box .columns .investment-text a:hover{
+	background-color: #d3dbdd;
+}
+
+.investments-box .columns .investment-text h3 {
+	font-size: 1em;
+	line-height: 1.3em;
+	color: #7F8C8D;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-style: normal;
+	text-align:center; 
+	display:block;
+	padding:10px 0px 5px 0px;
+	margin:0px;
+}
+
+.investments-box .columns .investment-text p{
+	text-align: center;
+	color: #fff;
+	font-family: "Roboto";
+	font-weight: 300;
+	line-height: 1.4;
+	font-size: 0.85em;
+	padding:5px;
+	width:100%; 
+	margin:0px;
+}
+
+.investment-text div{
+ position: relative;
+  top: 35%;
+  transform: translateY(-35%);
+}

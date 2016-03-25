@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+
+/* 3 images slideshow*/
+#active-menu-pic-svg g.brands-transition image,  .row-pic .lead-picture.brands-transition img, 
+.row-pic .lead-picture.swimwear-transition img, #active-menu-pic-svg g.swimwear-transition image {
+		position:absolute; 
+	animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-name: cf3-imgFadeInOut;
+    animation-timing-function: ease-in-out; 
+}
+ .row-pic .lead-picture.brands-transition,  
+ .row-pic .lead-picture.swimwear-transition  {
+	 overflow:hidden;
+	 background-image:none !important;
+ }
+@keyframes cf3-imgFadeInOut {
+  0% {
+    opacity:1;
+  }
+  33% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  83% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#active-menu-pic-svg g.brands-transition image:nth-of-type(1), 
+.row-pic .lead-picture.brands-transition img:nth-of-type(1),
+#active-menu-pic-svg g.swimwear-transition image:nth-of-type(1), 
+.row-pic .lead-picture.bswimwear-transition img:nth-of-type(1) {
+ animation-delay: 9s;
+}
+#active-menu-pic-svg g.brands-transition image:nth-of-type(2), 
+.row-pic .lead-picture.brands-transition img:nth-of-type(2),
+#active-menu-pic-svg g.swimwear-transition image:nth-of-type(2), 
+.row-pic .lead-picture.swimwear-transition img:nth-of-type(2)  {
+  animation-delay: 6s;
+}
+
+#active-menu-pic-svg g.brands-transition image:nth-of-type(3), 
+.row-pic .lead-picture.brands-transition img:nth-of-type(3),
+#active-menu-pic-svg g.swimwear-transition image:nth-of-type(3), 
+.row-pic .lead-picture.swimwear-transition img:nth-of-type(3)  {
+  animation-delay: 3s;
+}
+
+
+ 
+/*4 images slideshow */
+
+@keyframes cf4-imgFadeInOut {
+   0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+ .row-pic .lead-picture.activwear-transition  {
+	 overflow:hidden;
+	 background-image:none !important;
+ }
+.row-pic .lead-picture.activwear-transition img, #active-menu-pic-svg g.activwear-transition image {
+		position:absolute;
+		opacity:0;
+    -webkit-animation-name: cf4-imgFadeInOut;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: cf4-imgFadeInOut;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards; 
+}
+
+
+
+#active-menu-pic-svg g.activwear-transition image:nth-of-type(2), 
+.row-pic .lead-picture.activwear-transition img:nth-of-type(2)  {
+     -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+}
+
+#active-menu-pic-svg g.activwear-transition image:nth-of-type(3), 
+.row-pic .lead-picture.activwear-transition img:nth-of-type(3)  {
+      -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+}
+
+#active-menu-pic-svg g.activwear-transition image:nth-of-type(4), 
+.row-pic .lead-picture.activwear-transition img:nth-of-type(4)  {
+      -webkit-animation-delay: 18.0s;
+    -moz-animation-delay: 18.0s;
+}

@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Best Life International</title>
+
+    <!--meta-->
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta name="keywords" content="premium html template, unique premium template, one page" />
+    <meta name="description" content="Untitled template"/>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png"/>
+    <link href="images/favicon.png" rel="shortcut icon">
+     <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>       
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/icons.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="rs-plugin/css/settings.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style type="text/css">
+ 
+/*svg {
+ -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  cursor:pointer;
+}     */
+
+
+
+
+
+
+#fa:hover{
+    color:#cc2900;
+    
+}
+#in:hover{
+    color:#cc2900;
+    
+}
+#tw:hover{
+    color:#cc2900;
+    
+}
+
+#Layer_x0020_1{
+    
+  opacity: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+
+
+html, body {
+  background: #222;
+  overflow: hidden;
+  
+}
+
+.view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-perspective: 400;
+          perspective: 400;
+}
+
+.plane {
+  width: 75px;
+  height: 75px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.plane.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-transform: rotateX(60deg) rotateZ(-30deg);
+  transform: rotateX(60deg) rotateZ(-30deg);
+  -webkit-animation: rotate 20s infinite linear;
+  animation: rotate 20s infinite linear;
+}
+.plane.main .circle {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px #fff, inset 0 0 60px #fff;
+}
+.plane.main .circle::before, .plane.main .circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+//  background: crimson;
+  box-sizing: border-box;
+  box-shadow: 0 0 60px 2px crimson;
+}
+.plane.main .circle::before {
+  -webkit-transform: translateZ(-90px);
+          transform: translateZ(-90px);
+}
+.plane.main .circle::after {
+  -webkit-transform: translateZ(90px);
+          transform: translateZ(90px);
+}
+.plane.main .circle:nth-child(1) {
+  -webkit-transform: rotateZ(72deg) rotateX(63.435deg);
+          transform: rotateZ(72deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(2) {
+  -webkit-transform: rotateZ(144deg) rotateX(63.435deg);
+          transform: rotateZ(144deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(3) {
+  -webkit-transform: rotateZ(216deg) rotateX(63.435deg);
+          transform: rotateZ(216deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(4) {
+  -webkit-transform: rotateZ(288deg) rotateX(63.435deg);
+          transform: rotateZ(288deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(5) {
+  -webkit-transform: rotateZ(360deg) rotateX(63.435deg);
+          transform: rotateZ(360deg) rotateX(63.435deg);
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+            transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+   transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+
+
+</style>
+
+<script>
+    
+  (function () {
+}.call(this));  
+
+
+$(document).ready(function(){
+   
+   var images1 = [
+    "Trangle_Images/left1.jpg",
+    "Trangle_Images/left2.jpg",
+    "Trangle_Images/left3.jpg",
+    "Trangle_Images/left4.jpg"];
+
+currentImage1 = 0;
+
+function ChangeImage1() {
+    //debugger;
+    
+   // $('span').text(images[currentImage]);
+    if (currentImage1 > images1.length - 1) currentImage1 = 0;
+    $("#topleft").css("background-image", "url(" + images1[currentImage1] + ")");
+
+    $("#topleft").fadeOut(500, function () {
+       // alert(images[currentImage]);
+        
+        $("#topleft").attr("xlink:href", images1[currentImage1]);
+        $("#topleft").fadeIn(500);
+    });
+    currentImage1++;
+    setTimeout(function () {
+        ChangeImage1();
+    }, 5000);
+}
+
+ChangeImage1();
+        
+        
+});
+    
+// Using multiple unit types within one animation.
+$(document).ready(function(){
+    
+    
+    
+var images = [
+    "Trangle_Images/right1.jpg",
+    "Trangle_Images/right2.jpg",
+    "Trangle_Images/right3.jpg",
+    "Trangle_Images/right4.jpg"];
+
+currentImage = 0;
+
+function ChangeImage() {
+    //debugger;
+    
+   // $('span').text(images[currentImage]);
+    if (currentImage > images.length - 1) currentImage = 0;
+    $("#topright").css("background-image", "url(" + images[currentImage] + ")");
+
+    $("#topright").fadeOut(500, function () {
+       // alert(images[currentImage]);
+        
+        $("#topright").attr("xlink:href", images[currentImage]);
+        $("#topright").fadeIn(500);
+    });
+    currentImage++;
+    setTimeout(function () {
+        ChangeImage();
+    }, 5000);
+}
+
+ChangeImage();
+   
+   $('#topright').css('cursor', 'pointer');
+   
+   $('#topleft').css('cursor', 'pointer');
+   
+   
+//$('#topright').hover(function(){  
+//      
+//     var a = $('#topright');
+//     a.attr("xlink:href","Trangle_Images/right2.jpg");
+//   });
+//   
+//$('#topleft').mouseout(function(){  
+//       
+//     var a = $('#topright');
+//     a.attr("xlink:href","Trangle_Images/Trangle_ImgID3.jpg");
+//   });
+//   
+//$('#topright').hover(function(){  
+//       
+//     var a = $('#topleft');
+//     a.attr("xlink:href","Trangle_Images/left2.jpg");
+//   });
+//
+//$('#topleft').mouseout(function(){  
+//       
+//     var a = $('#topleft');
+//     a.attr("xlink:href","Trangle_Images/left2.jpg");
+//   });
+   
+   
+   $('#abs').css('cursor', 'pointer');
+   
+   $('#abs1').css('cursor', 'pointer');
+   
+   $('#abs2').css('cursor', 'pointer');
+   
+   $('#abs').hover(function(){  
+       
+     var a = $('#abs');
+     a.attr("xlink:href","1.svg_Images/1.svg_ImgID12.jpg");
+   });
+  $('#abs').mouseout(function(){  
+     var a = $('#abs');
+     a.attr("xlink:href","1.svg_Images/1.svg_ImgID1.jpg");
+   });
+   
+   ///////////////////////////////////////////////////
+   
+   $('#abs1').hover(function(){  
+       
+     var a = $('#abs1');
+     a.attr("xlink:href","1.svg_Images/1.svg_ImgID22.jpg");
+   });
+  $('#abs1').mouseout(function(){  
+     var a = $('#abs1');
+     a.attr("xlink:href","1.svg_Images/1.svg_ImgID2.jpg");
+   });
+   
+   ///////////////////////////////////////////////////
+   
+   $('#abs2').hover(function(){  
+       
+     var a = $('#abs2');
+     a.attr("xlink:href","1.svg_Images/1.svg_ImgID32.jpg");
+   });
+  $('#abs2').mouseout(function(){  
+     var a = $('#abs2');
+     a.attr("xlink:href","1.svg_Images/1.svg_ImgID3.jpg");
+   });
+   
+});
+
+
+////////////////////////////////////////////////////
+
+
+
+</script>      
+    
+    
+<script type="text/javascript">
+        function url1(){
+             window.location="people.html";
+        }
+        
+        function urllink(){
+            window.location="http://newsblog.bestlifeltd.com/";
+        }
+</script>   
+    
+
+
+<script type="text/javascript">
+   $(document).ready(function(){
+       $(window).load(function(){ 
+          var img = ["images/slide4bg.jpg","images/slide4bg.jpg","images/slide4bg.jpg","images/slide4bg.jpg"];
+         // alert(img[1]);
+        
+       });
+   });
+    
+    
+</script>
+</head>
+<body class="oblique loading">
+<div id="loader" class="text-center">
+        <h1><span class="underline">Best Life International</span></h1>
+        <h2>is loading...</h2>
+</div>
+<div id="page" class="animate">
+        <!--Header-->
+<header id="header">
+<div class="container">
+                <div class="row">
+                  <!--  <div class="col-sm-12">
+                        <h1 id="logo" class="underline"><a href="index.html"><img style="width:200px;" src="images/blilog.png" /></a></h1>
+                    </div> -->
+                </div>
+</div>
+<div id="site-changer" >
+    
+ <div class="view">
+  <div class="plane main">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</div> 
+    
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.01471in" height="2.22407in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2.56087 1.41867"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str6 {stroke:#DEDEDD;stroke-width:0.00885987}
+    .fil7 {fill:none}
+    .fil8 {fill:#AAA9A9;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id10">
+    <path d="M0.51041 0.775799l0.771547 -0.769543 0.778084 0.785756 -0.413574 0.413574 -0.356311 -0.351216 -0.000786038 0.000801105 -0.350497 0.347346 -0.428463 -0.426718z"/>
+   </clipPath>
+    <clipPath id="id11">
+     <path d="M2.05962 0.791585l-0.413664 0.413496 -0.355799 -0.350711 -0.000786038 0.000801105 -0.294033 0.291391 -0.0568961 0.0555224 -0.428031 -0.426286 0.388152 -0.387142 0.385244 -0.380535 0.775814 0.783464z"/>
+    </clipPath>
+    <clipPath id="id12">
+     <path d="M0.51041 0.775799l0.771547 -0.769543 0.778084 0.785756 -0.413574 0.413574 -0.356311 -0.351216 -0.000786038 0.000801105 -0.350497 0.347346 -0.428463 -0.426718z"/>
+    </clipPath>
+   <clipPath id="id13">
+    <path d="M1.71446 1.28214l0.414782 -0.414782 0.425362 0.425362 -0.121522 0.121522 -0.585322 0 -0.1333 -0.132102z"/>
+   </clipPath>
+    <clipPath id="id14">
+     <path d="M2.55309 1.29121l-0.0357132 0.0387318 -0.0842994 0.0842994 -0.585322 0 -0.1333 -0.132102 0.414782 -0.414782 0.423853 0.423853z"/>
+    </clipPath>
+    <clipPath id="id15">
+     <path d="M1.71446 1.28214l0.414782 -0.414782 0.425362 0.425362 -0.121522 0.121522 -0.585322 0 -0.1333 -0.132102z"/>
+    </clipPath>
+   <clipPath id="id16">
+    <path d="M0.00626319 1.28511l0.425364 -0.425362 0.425367 0.425362 -0.129131 0.129129 -0.592471 0 -0.129129 -0.129129z"/>
+   </clipPath>
+    <mask id="id17">
+  <linearGradient id="id18" gradientUnits="userSpaceOnUse" x1="0.632625" y1="1.14603" x2="0.230636" y2="1.12796">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+     <rect style="fill:url(#id8)" x="0.00626319" y="0.859752" width="0.850731" height="0.554491"/>
+    </mask>
+   <clipPath id="id19">
+    <path d="M0.00626319 1.28511l0.425364 -0.425362 0.425367 0.425362 -0.129131 0.129129 -0.592471 0 -0.129129 -0.129129z"/>
+   </clipPath>
+    <clipPath id="id110">
+     <path d="M0.81712 1.24524l0.0396108 0.0401381 -0.128867 0.128865 -0.592471 0 -0.129129 -0.129129 0.425364 -0.425362 0.385492 0.385487z"/>
+    </clipPath>
+    <clipPath id="id111">
+     <path d="M0.00626319 1.28511l0.425364 -0.425362 0.425367 0.425362 -0.129131 0.129129 -0.592471 0 -0.129129 -0.129129z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id10)">
+   <g>
+   </g>
+   <g style="clip-path:url(#id11)">
+    <image id="new.jpg" transform="matrix(0.268378 0 0 0.268378 -2.11001 1.49477)" x="2.00735" y="-6.80746" width="13.6079" height="9.07637" xlink:href="Trangle_Images\Trangle_ImgID1.jpg"/>
+   </g>
+   <g style="clip-path:url(#id12)">
+   </g>
+  </g>
+  <polygon class="fil7 str6" points="0.51041,0.775799 1.28196,0.00625565 2.06004,0.792012 1.64647,1.20559 1.29016,0.85437 1.28937,0.855171 0.938873,1.20252 "/>
+  <polygon class="fil8" points="1.49358,1.41424 1.62267,1.28515 1.28673,0.949217 0.948187,1.28494 1.07749,1.41424 1.05244,1.41424 0.935608,1.29741 0.817796,1.41424 0.792703,1.41424 0.923112,1.28492 0.734189,1.096 0.746716,1.08347 0.935691,1.27244 1.28683,0.92423 1.29259,0.930016 1.6352,1.27263 1.84219,1.06563 1.85472,1.07816 1.64773,1.28515 1.77681,1.41424 1.75176,1.41424 1.6352,1.29768 1.51863,1.41424 "/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id13)">
+   <g>
+   </g>
+   <g style="clip-path:url(#id14)">
+    <image class="tp-thumb-image" id="topright"  transform="matrix(1 0 0 1 -0.354968 -0.847027)" x="2.00735" y="1.71039" width="1.25422" height="0.558521" xlink:href="Trangle_Images/Trangle_ImgID2.jpg"/>
+   </g>
+   <g style="clip-path:url(#id15)">
+   </g>
+  </g>
+  <polygon class="fil7 str6" points="1.71446,1.28214 2.12924,0.867359 2.5546,1.29272 2.43308,1.41424 1.84776,1.41424 "/>
+  <g style="clip-path:url(#id16)">
+   <polygon class="fil8" style="mask:url(#id7)" points="0.00626319,0.859752 0.856995,0.859752 0.856995,1.41424 0.00626319,1.41424 "/>
+  </g>
+  <g style="clip-path:url(#id19)">
+   <g>
+   </g>
+   <g style="clip-path:url(#id110)">
+    <image id="topleft" transform="matrix(1 0 0 1 -2.18276 -0.786105)" x="2.00735" y="1.63997" width="1.39239" height="0.628943" xlink:href="Trangle_Images/Trangle_ImgID3.jpg"/>
+   </g>
+   <g style="clip-path:url(#id111)">
+   </g>
+  </g>
+  <polygon class="fil7 str6" points="0.00626319,1.28511 0.431628,0.859752 0.856995,1.28511 0.727863,1.41424 0.135392,1.41424 "/>
+ </g>
+</svg>
+
+
+</div>
+       
+            <!--MENU-->
+<!--<div class="menu_trigger" id="myMenuTrigger"></div> -->
+        <div class="menu animate">
+            <h2 class="underline"><a href="index.html"><img style="width:150px;" src="images/Logo.png" /></a></h2>
+              <!--  <span class="icon_close" id="menuClose"></span> -->
+                <ul id="mainMenu">
+                        <li style="border-bottom: 1px solid #414850;"><a href="index.html" class="active" >Home</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="about.html" >About</a></li>
+                       <!-- <li><a href="work.html">Featured <span class="horizontalInvisible">Work</span></a></li> -->
+                        <li style="border-bottom: 1px solid #414850;"><a href="meet.html"><span class="horizontalInvisible">Meet</span> The Crew</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="latestwork.html"><span class="horizontalInvisible">Our</span> Latest Works</a></li>
+                       <!-- <li><a href="services.html">Services <span class="horizontalInvisible">We Offer</span></a></li> -->
+                        <li style="border-bottom: 1px solid #414850;cursor:pointer;"><a onclick="urllink()" >Blog</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="testimonials.html">Testimonials</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="partnership.html">Our Customers</a></li>
+                        <li style="border-bottom: 1px solid #414850;"><a href="contact.html">Get In Touch</a></li>
+                </ul>
+
+      
+
+              <div style="padding-top:25px;">
+                  <a href="#"><i id="fa" style="padding-left:35px;font-size:20px;" class="fa fa-facebook-square"></i></a>
+                  <a href="#"><i id="in" style="padding-left:35px;font-size:20px;" class="fa fa-linkedin-square"></i></a>
+                  <a href="#"><i id="tw" style="padding-left:35px;font-size:20px;" class="fa fa-twitter"></i></a>
+              </div>
+              
+              <!-- svg xml -->
+<div style="padding-top:35px;padding-left:15px;">  
+              <?xml version="1.0" encoding="UTF-8"?>
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                <!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="175px" height="175px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2.31607 2.32824"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:0.00457665}
+    .fil1 {fill:none}
+    .fil3 {fill:#C2C1C1}
+    .fil2 {fill:#DA251D}
+    .fil4 {fill:#EF9BA0}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M1.16386 1.03426l-1.0738 0c-0.00519554,0.0427605 -0.00786872,0.0862907 -0.00786872,0.130442 0,0.594252 0.484379,1.07617 1.08167,1.07617l0 -1.20661z"/>
+   </clipPath>
+    <clipPath id="id1">
+     <path d="M1.16386 1.03426l-1.0738 0c-0.00519554,0.0427605 -0.00786872,0.0862907 -0.00786872,0.130442 0,0.594252 0.484379,1.07617 1.08167,1.07617l0 -1.20661z"/>
+    </clipPath>
+    <clipPath id="id2">
+     <path d="M1.16386 1.03426l-1.0738 0c-0.00519554,0.0427605 -0.00786872,0.0862907 -0.00786872,0.130442 0,0.594252 0.484379,1.07617 1.08167,1.07617l0 -1.20661z"/>
+    </clipPath>
+   <clipPath id="id3">
+    <path d="M1.16386 1.03426l0 1.20661c0.597284,0 1.08166,-0.481916 1.08166,-1.07617 0,-0.0441517 -0.00267318,-0.0876819 -0.00786872,-0.130442l-1.07379 0z"/>
+   </clipPath>
+    <clipPath id="id4">
+     <path d="M1.16386 1.03426l0 1.20661c0.597284,0 1.08166,-0.481916 1.08166,-1.07617 0,-0.0441517 -0.00267318,-0.0876819 -0.00786872,-0.130442l-1.07379 0z"/>
+    </clipPath>
+    <clipPath id="id5">
+     <path d="M1.16386 1.03426l0 1.20661c0.597284,0 1.08166,-0.481916 1.08166,-1.07617 0,-0.0441517 -0.00267318,-0.0876819 -0.00786872,-0.130442l-1.07379 0z"/>
+    </clipPath>
+   <clipPath id="id6">
+    <path d="M1.15803 0.0941958c-0.542544,0 -0.991042,0.403471 -1.06174,0.92667l2.12343 -0.000475868c-0.0709121,-0.522968 -0.519302,-0.926194 -1.06168,-0.926194z"/>
+   </clipPath>
+    <clipPath id="id7">
+     <path d="M1.15803 0.0941958c-0.542544,0 -0.991042,0.403471 -1.06174,0.92667l2.12343 -0.000475868c-0.0709121,-0.522968 -0.519302,-0.926194 -1.06168,-0.926194z"/>
+    </clipPath>
+    <clipPath id="id8">
+     <path d="M1.15803 0.0941958c-0.542544,0 -0.991042,0.403471 -1.06174,0.92667l2.12343 -0.000475868c-0.0709121,-0.522968 -0.519302,-0.926194 -1.06168,-0.926194z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_2">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1.16386 1.03426l-1.0738 0c-0.00519554,0.0427605 -0.00786872,0.0862907 -0.00786872,0.130442 0,0.594252 0.484379,1.07617 1.08167,1.07617l0 -1.20661z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_128974456">
+   </g>
+   <g style="clip-path:url(#id1)">
+   <image   transform="matrix(0.532117 0 0 0.529412 -1.36431 0.713468)" x="1.75328" y="0.431412" width="3.96296" height="2.62821" xlink:href="1.svg_Images/1.svg_ImgID1.jpg"/>
+    <image id="abs" transform="matrix(0.532117 0 0 0.529412 -1.36431 0.713468)" x="1.75328" y="0.431412" width="3.96296" height="2.62821" xlink:href="1.svg_Images/1.svg_ImgID1.jpg" onClick="window.location='shape.html';"/>
+    </g>
+   <g style="clip-path:url(#id2)">
+   </g>
+  </g>
+  <path class="fil1 str0" d="M1.16386 1.03426l-1.0738 0c-0.00519554,0.0427605 -0.00786872,0.0862907 -0.00786872,0.130442 0,0.594252 0.484379,1.07617 1.08167,1.07617l0 -1.20661z"/>
+  <path class="fil0" d="M1.16386 1.03426l0 1.20661c0.597284,0 1.08166,-0.481916 1.08166,-1.07617 0,-0.0441517 -0.00267318,-0.0876819 -0.00786872,-0.130442l-1.07379 0z"/>
+  <g style="clip-path:url(#id3)">
+   <g id="_128974792">
+   </g>
+   <g style="clip-path:url(#id4)">
+   <image id="abs1" transform="matrix(0.409364 0 0 0.407283 -0.214891 1.06395)" x="1.75328" y="-0.242843" width="5.87179" height="3.30247" xlink:href="1.svg_Images/1.svg_ImgID2.jpg" onClick="window.location='people.html';"/>
+   </g>
+   <g style="clip-path:url(#id5)">
+   </g>
+  </g>
+  <path class="fil1 str0" d="M1.16386 1.03426l0 1.20661c0.597284,0 1.08166,-0.481916 1.08166,-1.07617 0,-0.0441517 -0.00267318,-0.0876819 -0.00786872,-0.130442l-1.07379 0z"/>
+  <g id="_130094288">
+   <path id="_128975704" class="fil2 str0" d="M0.0943778 1.03577c0.0641199,-0.530423 0.515968,-0.941578 1.06366,-0.941578 0.547687,0 0.999535,0.411155 1.06366,0.941578 9.10129e-005,0.000746306 0.000179425,0.00149521 0.000267838,0.00224152l0.0872554 0c-0.0631344,-0.582345 -0.554542,-1.03573 -1.15118,-1.03573 -0.596637,0 -1.08804,0.453382 -1.15118,1.03573l0.0872528 0c9.10129e-005,-0.000746306 0.000179425,-0.00149521 0.000270438,-0.00224152z"/>
+   <path id="_128975368" class="fil3" d="M0.0107941 1.02088l2.29391 -0.000512273c0.00247035,0.012968 0.00484189,0.0281308 0.00655033,0.0416085 -0.0280346,0 -0.0575982,0.00439202 -0.0856302,0.00429321 -0.000897127,-2.60037e-006 -0.000431661,-0.00597565 -0.00133659,-0.00597565 -0.711305,2.34033e-005 -1.4213,0.000787912 -2.13261,0.000860722 -0.0291527,2.60037e-006 -0.0583081,0.000244435 -0.087466,0.000244435 0.00172404,-0.012877 0.00357031,-0.0263495 0.00658674,-0.040519z"/>
+   <rect id="_128975104" class="fil3" x="1.14616" y="1.04307" width="0.0354898" height="1.23327"/>
+   <path id="_81331616" class="fil3" d="M1.14616 2.23703c-0.58618,-0.0063657 -1.05958,-0.4837 -1.05958,-1.07139 0,-0.0353702 0.00171364,-0.0703426 0.00506552,-0.104836l-0.0855938 0 0 -0.0151628c-0.00400197,0.0393254 -0.00605366,0.0792307 -0.00605366,0.119614 0,0.642182 0.518579,1.16297 1.15803,1.16297 0.639454,0 1.15803,-0.520792 1.15803,-1.16297 0,-0.0352038 -0.00155762,-0.0700436 -0.00461045,-0.104452 -0.0290123,0 -0.0580246,0 -0.087037,0 0.00335188,0.0344939 0.00506552,0.0694663 0.00506552,0.104836 0,0.583752 -0.467086,1.05863 -1.04783,1.0712l0 0.0394944 -0.0354898 0 0 -0.0393046z"/>
+  </g>
+  <path class="fil4" d="M1.15803 0.0941958c-0.542544,0 -0.991042,0.403471 -1.06174,0.92667l2.12343 -0.000475868c-0.0709121,-0.522968 -0.519302,-0.926194 -1.06168,-0.926194z"/>
+  <g  style="clip-path:url(#id6)">
+   <g id="_81330680">
+   </g>
+   <g  style="clip-path:url(#id7)">
+    <image id="abs2" transform="matrix(0.0869359 0 0 0.0860613 -0.077439 1.0087)" x="1.75328" y="-13.5445" width="24.9153" height="16.6041" xlink:href="1.svg_Images/1.svg_ImgID3.jpg"/>
+   </g>
+   <g style="clip-path:url(#id8)">
+   </g>
+  </g>
+  <path class="fil1 str0" d="M1.15803 0.0941958c-0.542544,0 -0.991042,0.403471 -1.06174,0.92667l2.12343 -0.000475868c-0.0709121,-0.522968 -0.519302,-0.926194 -1.06168,-0.926194z"/>
+ </g>
+</svg>
+              </div>
+              <!-- -->
+              
+
+                    
+
+<div style="bottom: 0px;left:0px;line-height: 1;position: absolute;z-index: 998;font-size:11px;padding-bottom:10px;">
+        <span class="highlight" style="color:#cc2900;padding-left: 10px;">&copy;2016 www.bestlifeltd.com</span>All rights Reserved
+</div>  
+              
+        </div>
+        </header>
+        <!--END Header-->
+
+        <!--Main slider-->
+<section class="mainSliderContainer">
+            <div class="mainSlider">
+                <ul>
+                     <!-- SLIDE 1-->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide1bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+
+                        <!-- SECONDARY IMAGE -->
+                       <!-- <div class="slideImg tp-resizeme customin customout tp-caption"
+                            data-x="870" data-y="95" data-speed="1000" data-start="200"
+                            data-customin="x:200px;y:200px;"
+                            data-customout="x:200px;y:200px;"
+                            data-easing="easeOutExpo">
+                            <img alt="iPad" src="images/slideImg1.png" />
+                        </div> -->
+
+                        <!-- TEXT LINE 1 -->
+                   <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="400" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            We make
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                       <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="800"
+                            data-easing="easeOutExpo">
+                            websites & apps
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="625" data-speed="1000" data-start="1000"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See what we have done so far.</a>
+                        </div> 
+
+                        <!-- ARROW ON TEXT LINE 3 -->
+                      <!--  <div class="slideImgArrow tp-resizeme lfb ltt tp-caption"
+                            data-x="375" data-y="620" data-speed="2000" data-start="700"
+                            data-easing="Elastic.easeOut">
+                            <a href="#sFeaturedWork">
+                                <img alt="Go to portfolio" src="images/arrow_down.png" /></a>
+                        </div> -->
+                    </li>
+
+                    <!-- SLIDE 2-->
+                    <li data-transition="slidedown" data-slotamount="7" data-masterspeed="200">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide2bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+
+                        <!-- SECONDARY IMAGE -->
+                      <!--  <div class="slideImg tp-resizeme customin customout tp-caption"
+                            data-x="1070" data-y="295" data-speed="1000" data-start="0"
+                            data-customin="x:-200px;y:-200px;"
+                            data-customout="x:-200px;y:-200px;"
+                            data-easing="easeOutExpo">
+                            <img alt="iPad" src="images/slideImg1.png" />
+                        </div> -->
+
+                        <!-- SECONDARY IMAGE -->
+                      <!--  <div class="slideImg tp-resizeme customin customout tp-caption"
+                            data-x="1147" data-y="385" data-speed="1000" data-start="1000"
+                            data-customin="scaleX:0;scaleY:0;"
+                            data-customout="scaleX:0;scaleY:0;"
+                            data-easing="easeOutExpo">
+                            <img alt="iPad App" src="images/ipadApp.png" />
+                        </div> -->
+                        <!-- TEXT LINE 1 -->
+                      <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="400" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            Perfect
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            for all devices
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                   <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See what we have done so far.</a>
+                        </div> 
+                        <!-- ARROW ON TEXT LINE 3 -->
+                     <!--   <div class="slideImgArrow tp-resizeme lfb ltt tp-caption"
+                            data-x="375" data-y="620" data-speed="2000" data-start="700"
+                            data-easing="Elastic.easeOut">
+                            <a href="#sFeaturedWork">
+                                <img alt="Go to portfolio" src="images/arrow_down.png" /></a>
+                        </div> -->
+                    </li>
+
+                    <!-- SLIDE 3 -->
+                     <li data-transition="slidedown" data-slotamount="7" data-masterspeed="300">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide3bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+
+                        <!-- SECONDARY IMAGE -->
+                       <!-- <div class="slideImg tp-resizeme customin customout tp-caption"
+                            data-x="1152" data-y="-12" data-speed="1000" data-start="0"
+                            data-customin="x:-8px;y:395px;rotationX:-45;scaleX:2;scaleY:2"
+                            data-customout="x:-8px;y:395px;"
+                            data-easing="easeOutExpo">
+                            <img alt="iPad" src="images/iphone.png" />
+                        </div> -->
+
+                        <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+
+                        <!-- ARROW ON TEXT LINE 3 -->
+                     <!--   <div class="slideImgArrow tp-resizeme lfb ltt tp-caption"
+                            data-x="375" data-y="620" data-speed="2000" data-start="700"
+                            data-easing="Elastic.easeOut">
+                            <a href="#sFeaturedWork">
+                                <img alt="Go to portfolio" src="images/arrow_down.png" /></a>
+                        </div> -->
+                    </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide4bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                    
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                    <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide5bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div>           
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide6bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide7bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                    
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     
+                     
+                     
+                     
+                     
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide8bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+               </div> 
+
+                        <!-- TEXT LINE 3 -->
+                <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                </div> 
+                     
+                     
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide9bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                        
+                        
+                        
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide10bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                    </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     
+                     
+                     
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide11bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     
+                     
+                     
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide12bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                      <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     
+                     
+                     </li>
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide13bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                      <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div> 
+                     
+                     </li>
+                     
+                     
+                      <li data-transition="fade" data-slotamount="7" data-masterspeed="0">
+                        <!-- MAIN IMAGE -->
+                        <img alt="Slide1" src="images/slide14bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     
+                     
+                       <!-- TEXT LINE 1 -->
+                     <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="425" data-speed="1000" data-start="500"
+                            data-easing="easeOutExpo">
+                            <span class="yellowColor">untitled</span> is
+                        </div> 
+
+                        <!-- TEXT LINE 2 -->
+                <div class="bigText tp-resizeme lft ltt tp-caption"
+                            data-x="375" data-y="520" data-speed="1000" data-start="600"
+                            data-easing="easeOutExpo">
+                            ultra responsive.
+                        </div> 
+
+                        <!-- TEXT LINE 3 -->
+                    <div class="mediumText imgArrowOffset tp-resizeme lft ltt tp-caption"
+                            data-x="450" data-y="620" data-speed="1000" data-start="700"
+                            data-easing="easeOutExpo">
+                            <a href="#sFeaturedWork">See the other awesome features.</a>
+                        </div>           
+                     </li>
+                   <!--  <li data-transition="fade" data-slotamount="7" data-masterspeed="0"> -->
+                        <!-- MAIN IMAGE -->
+                      <!--  <img alt="Slide1" src="images/slide10bg.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" />
+                     </li> -->
+                </ul>
+                 
+                 </div>
+            <!-- <div class="navButtons text-center">
+                  
+                  
+                   <div class="Prev animate"><img alt="Previous" src="images/prev.png" class="img-responsive" /></div>
+                    <div class="Next animate"><img alt="Next" src="images/next.png" class="img-responsive" /></div>
+                </div> -->
+                
+                
+             <!--  <div class="Prev animate"> -->
+                 
+                   <!-- <img alt="Previous" src="images/prev.png" class="img-responsive" /> -->
+               <!-- </div> -->
+           <!--      <div class="Next animate">
+                   <img alt="Next" src="images/next.png" class="img-responsive" /> 
+                </div>  -->
+                </section>
+        
+</div>
+   
+
+        <!--END Main slider-->
+      
+        <!--Welcome to untitled section-->
+
+<footer id="footer" class="obliqueCut lightSection separatorTop">
+ 
+
+    
+
+        
+
+
+<div  style="container">
+<div class="col-sm-6 text-left">
+
+</div>
+<div class="col-sm-6 text-right">
+<div align="right"></div>
+
+</div>
+</div>
+           
+</footer>
+        <!--END Footer-->
+       
+
+
+
+    <!--Scripts-->
+    
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nprogress.min.js"></script>
+    <script src="js/jquery.color.min.js"></script>
+    <script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery-magnific-popup.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/instafeed.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- jQuery REVOLUTION Slider  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  
+    
+    <!--My javascript-->
+   <script src="js/script.js"></script> 
+
+</body>
+</html>

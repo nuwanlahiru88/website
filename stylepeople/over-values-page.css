@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.grid > li.lighten-gray {
+background: #B0B8BD;
+}
+
+ul.grid > li.dark-gray{
+	background: #242B31;
+}
+
+ul.grid > li.dark-gray-sub1{
+	background: #4A5664;
+}
+
+ul.grid > li.dark-gray-sub2{
+	background: #7F8C8D;
+}
+
+ul.grid > li.dark-gray-sub3{
+	background: #95A5A6;
+}
+
+ul.grid > li.tall .grid-content{
+	padding:0.5em 0px;
+}
+ul.grid > li.tall .grid-content ul.red-arrow{
+	margin-left:0px;
+	padding :0px 15px;
+	  position: relative;
+	  top: 35%;
+	  -webkit-transform: translateY(-35%);
+	  -ms-transform: translateY(-35%);
+	  transform: translateY(-35%);
+}
+ul.grid > li.tall .grid-content  ul.red-arrow li{
+	text-align:left;
+    list-style-type: none;
+    padding-left:15px ;
+    background: url("../img/our-value-arrow.png") no-repeat left 6px;
+	font-size: 0.95em;
+    line-height: 1em;
+	font-family: "Roboto";
+	font-weight: 300;
+	margin-bottom:15px;
+}
+.lead-picture-sustainability-social img{
+    width: 100%;
+}
+
+li.lead-pic.our-values-page {
+    background: url("../img/our-values-landing.jpg") no-repeat scroll right center rgba(0, 0, 0, 0);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul.grid > li h3.title-white {
+	font-size: 1.4em;
+	line-height: 1.5;
+	color:#FFFFFF;
+}
+p.title-white {
+	font-size: 1.4em;
+	line-height: 1.5;
+	color:#FFFFFF;
+}
+
+/*ul.grid > li h3.title-white.title-mission{
+	display:block;
+	padding-top:0.85em;
+}*/
+
+/*ul.grid .grid-content p.lead.mission-text{
+	margin-top: 1.2rem;
+	display:block;
+	font-size: 1rem;
+}*/
+
+ul.grid .grid-content p.lead.title-white {
+	font-size:1.4em;
+}
+
+
+.overview-page .content  ul.red-arrow li{
+	text-align:left;
+	background:url(../img/our-value-arrow.png)  no-repeat scroll 10px 8px rgba(0, 0, 0, 0);
+	list-style-image:none;
+	font-size: 0.95em;
+	font-family: "Roboto";
+	font-weight: 300;
+	margin-bottom:1.2em;
+}
+
+ul.grid p.title-white{
+	color:#FFF;
+}

@@ -1,0 +1,150 @@
+.overview-page  .lead-picture.lead-picture-innovation{
+	    background: url('../img/innovation.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-mos{
+	    background: url('../img/mos-overview-landing.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.overview-page  .lead-picture.lead-picture-mas-person{
+	    background: url('../img/mas-person-landing-mini.jpg') center 10% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.overview-page  .lead-picture.lead-picture-sharedvalues {
+    background: url('../img/apparel-active-wear4.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-overview {
+    background: url('../img/overview-landing.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-operational {
+    background: url('../img/operational-empowerment.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture-sustainability-co {
+    background: url('../img/corporate-sustainability-landing.jpg') center 80% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture-sustainability-social {
+    background: url('../img/social-sustainability-landing.jpg') center  no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-india {
+    background: url('../img/investment-india-1.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture-srilanka {
+    background: url('../img/investment-sl.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture-mimt {
+    background: url('../img/investment-mimt.jpg') center 60% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-masdesign {
+    background: url('../img/mas-design.jpg') center 50% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-technology-gtnexus {
+  background: url('../img/mas-it-nexus.jpg') center 50% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-technology-attune {
+    background: url('../img/mas-it-attune.jpg') center 50% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-page  .lead-picture.lead-picture-sports-empower {
+    background: url('../img/sports-empower.jpg') center 50% no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.shared-values p{
+}
+
+.shared-values h2{
+	text-transform:uppercase;
+}
+
+.shared-values h4 {
+	font-size:1em;
+}
+.shared-values ul, .overview-page .content ul{
+	padding:0px 0px 15px 0px;
+	margin:0px;
+}
+.shared-values ul li {
+	 background: url("../img/diamond-bullet.png") no-repeat scroll 10px center rgba(0, 0, 0, 0);
+    line-height: 1.2;
+    list-style-type: none;
+    padding: 2px 0 2px 30px;
+}
+
+.overview-page .content h4{
+	font-size:1.2em;
+	font-weight: 400;
+}
+
+.overview-page .content ul li{
+	 background: url("../img/diamond-bullet.png") no-repeat scroll 10px 8px rgba(0, 0, 0, 0);
+    line-height: 1.4;
+    list-style-type: none;
+    padding: 2px 0 2px 30px;
+	font-size:0.95em;
+}

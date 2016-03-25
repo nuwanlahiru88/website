@@ -1,0 +1,121 @@
+.board-member-info {
+    text-align: left;
+    border: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.board-info-body {
+    padding: 4rem 1rem;
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.board-member-info.reveal-modal .close-reveal-modal {
+    background-color: #E74C3C;
+    color: #fff;
+    font-weight: 400;
+    padding: 0.2rem;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.main-section ul#board-members-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+}
+
+.main-section #board-members-list li {
+    background-color: #CBD0D3;
+    width: 100%;
+    padding: 0.6rem 1rem 0.6rem 85px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.main-section #board-members-list li img {
+    width: auto;
+    height: 65px;
+    height: 65px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.main-section #board-members-list li:after{
+    /*background: url('../img/icon-factory-marker.png') left center no-repeat;
+    background-size: 10px;*/
+    content: attr(data-position);
+    display: block;
+    opacity: 0.6;
+    font-size: 0.85em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*text-indent: 15px;*/
+}
+
+
+.main-section #board-members-list li:nth-child(even) {
+    background-color: #BDC3C7;
+}
+
+.main-section #board-members-list li:hover, .main-section #board-members-list li:active {
+    background-color: #E74C3C !important;
+    color: #fff;
+}
+
+.board-member-info h1 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.board-member-info h2 {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size:0.8em !important;
+    font-style:italic;
+    color:rgb(31,38,43);
+}
+
+.board-member-info p {
+    color:rgb(31,38,43);
+    font-size: 0.9em;
+}
+
+.board-member-info ul {
+    margin: 0 0 15px 0;
+    padding: 0;
+
+    color:rgb(31,38,43);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.board-member-info ul > li {
+    border-left: 2px solid #C3C9CD;
+    padding: 2px 0;
+    list-style-type: none;
+    background: url('../img/diamond-bullet.png') 10px center no-repeat;
+    padding-left: 30px;
+    line-height: 1.2;
+}
+
+ul#board-info-education{
+	display:none;
+	visibility:hidden;
+}

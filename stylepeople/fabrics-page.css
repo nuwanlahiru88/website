@@ -1,0 +1,121 @@
+
+ul.grid li.video-holder.fabric-details-video {
+	background-image:none;
+  position: relative;
+  overflow: hidden;
+}
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  20% {
+    opacity:1;
+  }
+  33% {
+    opacity:0;
+  }
+  87% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+ul.grid li.video-holder.fabric-details-video img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+ul.grid li.video-holder.fabric-details-video img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+ul.grid li.video-holder.fabric-details-video img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+
+ul.grid li.video-holder.fabric-details-video img {
+	position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  height: 100%;
+	width: auto;
+  max-width: none;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: cf4FadeInOut;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+.reveal-modal.gridpopup{
+     padding:0px;
+     max-width:600px;
+     margin :0px auto;
+     left:30%;
+     float:none;
+     width:100%;
+     background:#BDC3C7;
+     font-family: "Roboto";
+ }
+
+.reveal-modal.gridpopup .close-reveal-modal{
+background: url("../masimg/icon/icon-close.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    float: right;
+    height: 30px;
+    text-indent: -9999px;
+    width: 40px;
+}
+
+.reveal-modal.gridpopup img{
+	width:100%;
+  margin-bottom: 15px;
+}
+
+.reveal-modal.gridpopup h2{
+  background-color: #FFF;
+	font-style: normal;
+	color: #1f262b;
+  font-weight: 400;
+	padding:15px;
+	font-family: "Roboto";
+	font-size: 17px;
+  margin-top: 0;
+	margin-bottom:0px;
+}
+
+.reveal-modal.gridpopup p{
+  color: #1F262B;
+	font-size:14px;
+  font-weight: 300;
+	padding:15px;
+	font-family: "Roboto";
+}
+
+/*.reveal-modal.gridpopup.text-content{
+  padding:15px;
+
+}*/
+
+/*
+
+.reveal-modal.gridpopup.text-content h2 {
+  margin: -15px -15px 15px -15px;
+}
+
+*/
+.reveal-modal.gridpopup.text-content p{
+  padding:0;
+}
+
+.has-read-more a{
+	font-size:11px;
+	text-transform:uppercase;
+	color:#CCC;
+}
+
+.has-read-more a:hover{
+	color:#FFF;
+}

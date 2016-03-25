@@ -1,0 +1,147 @@
+
+.img1
+{
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease;  /* Transition for Webkit browsers */
+
+}
+
+.img2
+{
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease;  /* Transition for Webkit browsers */
+
+}
+
+.img3
+{
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease;  /* Transition for Webkit browsers */
+}
+
+.img4
+{
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease;  /* Transition for Webkit browsers */
+}
+
+.img1:hover
+{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+      -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+
+}
+
+.img2:hover
+{ filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+     -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.img3:hover
+{ filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+      -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.img4:hover
+{ filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+     -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+
+
+
+#shape1
+{
+    width: 22.6%;
+    height: auto;
+    margin: 0%;
+
+    float: left;
+
+}
+
+#shape2
+{
+    width: 22.6%;
+    height: auto;
+    margin: 0%;
+
+    float: left;
+
+}
+
+#shape3
+{
+    width: 22.6%;
+    height: auto;
+    margin: 0%;
+
+    float: left;
+
+}
+
+#shape4
+{
+    width: 22.6%;
+    height: auto;
+    margin: 0%;
+
+
+    float: left;
+    list-style: none;
+    display: block;
+
+}
+
+#shape5
+{
+    width: 22.6%;
+    height: auto;
+    margin: 0%;
+    background: red;
+    float: left;
+}

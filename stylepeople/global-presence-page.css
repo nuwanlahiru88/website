@@ -1,0 +1,217 @@
+.global-presence-box{
+	width:100%;
+	padding:0px;
+	height:100%;
+	display:table-row;
+	overflow:hidden;
+}
+
+.main-section.overview-page .global-presence-box .overview-content.overview-content-awards {
+	width:33.33%;
+	background:none;
+}
+
+.main-section.overview-page .global-presence-box ul.factories-list {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.map-container{
+	text-align:center;
+}
+
+
+.main-section.overview-page .global-presence-box ul.factories-list li {
+    list-style-type: none;
+    color: #1f262b;
+    font-size: 0.85rem;
+    font-family:"Roboto";
+    font-weight: 300;
+    padding: 0.2rem 0 0.2rem 15px;
+    background: url('../img/global-presense-bullet.png') left center no-repeat;
+}
+
+#map-world {
+    width: 100%;
+    max-width: 1162px;
+    height: auto;
+}
+
+.map-container .link {
+    cursor: pointer;
+}
+
+.countryblock{
+	height:100%;
+	width:100%;
+    background-color: #E9ECED;
+    background-color: rgba(233,236,237,0.9);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sl_map_box{
+    height:100%;
+    width:100%;
+}
+
+.countryblock img{
+	height:auto;
+	width:auto;
+    max-width: 100%;
+	float:none;
+    max-height: 100%;
+    margin-top: 2rem;
+}
+
+.overview-global-presence p{
+    padding-left: 25px;
+    font-size: 14px;
+    color: #1F262B;
+    font-weight: 300;
+}
+
+.map_close, .hide-mobile{
+	background: url("../img/modal-close.png") center no-repeat;
+	width: 40px;
+	height: 42px;
+	top: 0;
+	right: 0;
+	font-size: 1.375rem;
+	line-height: 1;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.6875rem;
+	color: #aaaaaa;
+	font-weight: bold;
+	z-index:100;
+	cursor: pointer;
+}
+
+.sl_map_box{
+	height:100%;
+	display:block;
+	padding:20px;
+	text-align:center;
+}
+
+#button_showmap {
+	cursor: pointer;
+}
+
+
+#global-presence-overview.main-section.overview-page .main-row{
+	margin:0px;
+}
+#global-presence-overview.main-section.overview-page .large-8.columns .overview{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	max-width:100%;
+}
+.title-intimates, .title-fabric, .title-active, .title-swim {
+    position: relative;
+    padding-left: 25px;
+
+}
+
+.title-intimates:before, .title-fabric:before, .title-active:before, .title-swim:before{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: '';
+    display: inline;
+    background: url('../img/global-presense-markers.png') 0px center no-repeat;
+	font-size:1.4em;
+    width: 17px;
+    height: 22px;
+}
+
+
+.title-intimates:before {
+	background-position: 0px center;
+}
+.title-fabric:before {
+	background-position: -17px center;
+}
+.title-active:before {
+	background-position: -36px center;
+}
+
+.title-swim:before {
+	background-position: -54px center;
+}
+
+.overview-global-presence {
+    padding: 4rem 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.overview-global-presence h3 {
+	display: block;
+    font-size: 1em;
+	line-height: 1.5;
+	color: #536472;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.overview-global-presence h3.title-gray {
+    color: #1F262B;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.button_showmap {
+	cursor: pointer;
+}
+
+
+ul.global-presense-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+}
+
+.global-presense-list li {
+    background-color: #CBD0D3;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    position: relative;
+    display: block;
+
+}
+
+.global-presense-list li h4 {
+	font-weight: 600;
+}
+
+.global-presense-list li b {
+	font-weight: 600;
+}
+
+.global-presense-list li p {
+	font-size: 0.85rem;
+}
+.global-presense-list li p b {
+    font-size: 0.9rem;
+}
+
+
+.global-presense-list li:nth-child(even) {
+    background-color: #BDC3C7;
+}
+
+
+#countries-holder.toggle {
+	display: none !important;
+}

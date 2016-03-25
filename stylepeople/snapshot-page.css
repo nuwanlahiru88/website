@@ -1,0 +1,319 @@
+.snapshot-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.snapshot-grid {
+    list-style-type: none;
+    height: 120%;
+    width: 120%;
+    margin-top: -6%;
+    position: absolute;
+    left: 50%;
+    margin-left: -60%;
+    padding: 0;
+    list-style-type: none;
+    transform:translate3d(0,0,0) rotate(10deg);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    overflow: hidden;
+
+}
+
+.snapshot-grid.flip {
+    transform:translate3d(0,0,0) rotate(-10deg);
+}
+
+.snapshot-grid .item-section {
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+.snapshot-grid .item-section.left {
+    border-right: 2px solid #E8ECED;
+}
+
+
+.snapshot-grid .item {
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    text-align:right;
+    display: block;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid #E8ECED;
+    cursor: pointer;
+    /*box-shadow: inset 0 0 35px rgba(0,0,0,0.2);*/
+
+}
+
+.snapshot-grid .item-section.right .item {
+    height: 24%;
+}
+
+.snapshot-grid .item-section.right .item:first-child {
+    height: 38%;
+}
+.snapshot-grid .item-section.right .item:last-child {
+    height: 38%;
+}
+
+.snapshot-grid .item > h3 {
+    min-width: 15%;
+    display: inline-block;
+    background-color:rgba(201,207,210,0.75);
+    font-family:"Roboto";
+    font-weight: 100;
+    color: #000;
+    font-size:1rem;
+    line-height:0.8;
+    padding: 0.8rem;
+    margin: -2px;
+
+
+}
+
+.snapshot-grid .item-section.right .item {
+    text-align: left;
+}
+
+.snapshot-grid .item.a {
+    padding-top: 30%;
+}
+
+.snapshot-grid .item.b {
+    padding-top: 20%;
+}
+
+.snapshot-grid .item.c {
+    padding-top: 25%;
+}
+
+.snapshot-grid .item.d {
+    padding-top: 10%;
+}
+
+.snapshot-grid .item.upcoming {
+    padding-top: 10%;
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+
+.snapshot-modal {
+    background: #ECF0F1;
+    padding: 0;
+    border: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 0;
+    left: 0%;
+}
+
+.snapshot-modal .header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #DDE3E6;
+}
+
+.snapshot-modal .header .logo-modal {
+    position: absolute;
+    width: 71px;
+    height: 55px;
+    background: url('../img/logo-modal.png');
+    right: 60px;
+    bottom: 15px;
+	visibility:hidden;
+}
+.snapshot-modal .header h2 {
+    font-family:"Roboto";
+    font-weight: 200;
+    line-height:1;
+    font-size: 1.2rem;
+    padding: 15px 20px 10px;
+}
+
+.snapshot-modal .close-reveal-modal {
+    background: url('../img/modal-close.png') center no-repeat;
+    width: 40px;
+    height: 50px;
+    top: 0;
+    right: 0;
+}
+
+.snapshot-modal .grid-items {
+    margin: 15px 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.snapshot-modal .grid-items .item {
+    margin-bottom: 15px;
+}
+
+.snapshot-modal .grid-items .item img {
+    width: 100%;
+    height: auto;
+}
+
+.snapshot-modal .grid-items .item .content {
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.reveal-modal.snapshot-modal{
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    height: 75%;
+}
+
+.snapshot-modal .grid-items .item h4 {
+    font-family:"Roboto";
+    font-weight: 100;
+    font-size: 1rem;
+    line-height:1;
+    color:rgb(88,96,107);
+}
+
+.snapshot-modal .grid-items .item p {
+    font-family:"Roboto";
+    font-weight: 200;
+    font-size: 0.8rem;
+    line-height:1.3;
+    margin-bottom: 0;
+    height: 105px;
+}
+
+/*backgrounds*/
+
+.snapshot-grid .item.snap2015{
+    background-image: url('../img/snapshot/snap2015.jpg');
+    background-position: top;
+}
+
+.snapshot-grid .item.snap2014{
+    background-image: url('../img/snapshot/snap2014.jpg');
+    background-position: top;
+}
+
+.snapshot-grid .item.snap2013{
+    background-image: url('../img/snapshot/snap2013.jpg');
+}
+
+.snapshot-grid .item.snap2012{
+    background-image: url('../img/snapshot/snap2012.jpg');
+}
+
+.snapshot-grid .item.snap2011{
+    background-image: url('../img/snapshot/snap2011.jpg');
+}
+
+.snapshot-grid .item.snap2010{
+    background-image: url('../img/snapshot/snap2010.jpg');
+}
+
+.snapshot-grid .item.snap2009{
+    background-image: url('../img/snapshot/snap2009.jpg');
+}
+
+.snapshot-grid .item.snap2008{
+    background-image: url('../img/snapshot/snap2008.jpg');
+}
+
+.snapshot-grid .item.snap2007{
+    background-image: url('../img/snapshot/snap2007.jpg');
+}
+
+.snapshot-grid .item.snap2006{
+    background-image: url('../img/snapshot/snap2006.jpg');
+}
+
+.snapshot-grid .item.snap2005{
+    background-image: url('../img/snapshot/snap2005.jpg');
+}
+
+.snapshot-grid .item.snap2004{
+    background-image: url('../img/snapshot/snap2004.jpg');
+}
+
+.snapshot-grid .item.snap2003{
+    background-image: url('../img/snapshot/snap2003.jpg');
+}
+
+.snapshot-grid .item.snap2002{
+    background-image: url('../img/snapshot/snap2002.jpg');
+}
+
+
+.snapshot-grid .item.snap2001{
+    background-image: url('../img/snapshot/snap2001.jpg');
+}
+
+.snapshot-grid .item.snap2000{
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+
+
+.snapshot-grid .item.snap1999{
+    background-image: url('../img/snapshot/snap1999.jpg');
+}
+
+.snapshot-grid .item.snap1998{
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+.snapshot-grid .item.snap1997{
+    background-image: url('../img/snapshot/snap1997.jpg');
+}
+
+.snapshot-grid .item.snap1996{
+    background-image: url('../img/snapshot/snap1996.jpg');
+}
+
+.snapshot-grid .item.snap1995{
+    background-image: url('../img/snapshot/snap1995.jpg');
+}
+
+.snapshot-grid .item.snap1994{
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+.snapshot-grid .item.snap1993{
+    background-image: url('../img/snapshot/snap1993.jpg');
+}
+
+.snapshot-grid .item.snap1992{
+    background-image: url('../img/snapshot/snap1992.jpg');
+}
+
+.snapshot-grid .item.snap1991{
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+.snapshot-grid .item.snap1990{
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+
+
+.snapshot-grid .item.snap1989{
+    background-image: url('../img/snapshot/snap1989.jpg');
+}
+
+.snapshot-grid .item.snap1988{
+    background-image: url('../img/snapshot/snapshot-upcoming.png');
+}
+
+.snapshot-grid .item.snap1987{
+    background-image: url('../img/snapshot/snap1987.jpg');
+}
+
+.snapshot-grid .item.snap1986{
+    background-image: url('../img/snapshot/snap1986.jpg');
+}

@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+#contact-branches .item, .contact-details-box  .item{
+    padding: 1rem;
+    font-family: "Roboto";
+    min-height: 200px;
+}
+
+#contact-branches .item h3, .contact-details-box  .item h3 {
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 150%;
+    color: #E92026;
+    text-align: left;
+    margin-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+	font-size:0.9em;
+}
+
+.contact-modal.reveal-modal.medium {
+    width: 90%;
+    margin-left: 0;
+    left: 5%;
+}
+
+.reveal-modal-bg {
+    background: transparent url('../masimg/icon/modal-bg.png') repeat;
+}
+
+.contact-modal {
+    background: #ECF0F1;
+    padding: 0;
+    border: 0;
+    top: 1rem;
+    overflow: visible;
+    height: auto;
+
+}
+
+.contact-modal .header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #DDE3E6;
+    top: 0;
+    position: relative;
+}
+.contact-modal .header .logo-modal {
+    position: absolute;
+    width: 71px;
+    height: 55px;
+    background: url('../img/logo-modal.png');
+    right: 60px;
+    bottom: 15px;
+}
+.contact-modal .header h2 {
+    font-family:"Roboto";
+    font-weight: 200;
+    line-height:1;
+    font-size: 0.9rem;
+    padding: 10px 20px 5px;
+}
+
+.contact-modal p {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+.contact-modal p a {
+    font-size: 0.8rem;
+}
+
+input[type="text"][disabled] {
+    background: #f6f6f6;
+}
+
+.contact-modal .form textarea {
+    height: 50px;
+}
+
+.contact-modal .form {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.contact-modal .form input {
+    padding: 0.2rem 0.5rem;
+}
+.contact-modal .form input, .contact-modal .form textarea {
+    font-size: 0.8rem;
+}
+
+.contact-modal .form .button.secondary {
+    background: #B7C5C8;
+    color: #283035;
+    font-size: 11px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 100%;
+}
+.contact-modal .form .button.secondary:hover, .contact-modal .form .button.secondary:active {
+    background: #95A5A6;
+}
+
+.contact-modal .form .columns.text-center {
+    line-height: 1.8;
+}
+
+.contact-modal .contact-info {
+    padding-bottom: 0.5rem;
+}
+
+.contact-modal .form label {
+    font-size: 1rem;
+    line-height: 2.3125rem;
+    height: 2.3125rem;
+    text-align: center;
+    text-shadow: none;
+}
+
+
+.contact-modal p.address {
+    background: url('../img/icon-contact-marker.png') left 2px no-repeat;
+    padding-left: 25px;
+    line-height: 1.4;
+}
+
+
+.contact-modal .close-reveal-modal {
+    background: url('../img/modal-close.png') center no-repeat;
+    width: 40px;
+    height: 42px;
+    top: 0;
+    right: 0;
+}
+.contact-modal img {
+    max-width: auto;
+}
+.contact-modal .map-link {
+    display: inline-block;
+}
+#map{
+    background: #fff;
+    width: 100%;
+    height:  0px !important;
+	visibility:hidden;
+}
+
+#contact-banner{
+	 background: #contact-banner;
+    width: 100%;
+}
+
+#contact-banner img{
+	width:100%;
+}
+
+.contact-outer{
+	overflow-y:hidden;
+	overflow-x:hidden;
+	max-height: 390px;
+    padding: 15px 0;
+    -webkit-overflow-scrolling: touch;
+	display:block;
+}
+
+.contact-outer .mCSB_inside > .mCSB_container {
+    margin: 0px 20px;
+}
+
+ .contact-details.accordion dd .large-4{
+	 display:inline-block;
+	 float:none;
+	 padding-left:15px;
+     vertical-align: top;
+ }
+
+.contact-details.accordion dd > a, .contact-details-box .item a {
+	background: #262B31 url("../img/nav-bg.png") top left;
+	font-size: .9em;
+	padding: 8px 15px;
+	display: block;
+	color: rgb(189,195,199);
+	font-family: "Roboto";
+	font-weight: 300;
+	border-bottom:1px solid #39414A;
+	margin-bottom:0px;
+}
+
+.contact-details.accordion dd h3{
+	width: 100%;
+	padding: 0px 0px 5px 0px;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 0.9em;
+	color: rgb(39,48,52);
+	text-decoration: none;
+	margin:0px;
+
+}
+
+.contact-details.accordion dd span, .contact-details-box .item span{
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 0.8em;
+	line-height: 140%;
+	color: rgb(39,48,52);
+	text-decoration: none;
+	display:block;
+	margin-bottom:5px;
+	padding-left:20px;
+}
+
+.contact-details.accordion dd span.location, .contact-details-box .item span.location{
+	background:url(../img/icon-location.png) top left no-repeat;
+}
+
+.contact-details.accordion dd span.phone-number, .contact-details-box .item span.phone-number{
+	background:url(../img/icon-phon.png) top left no-repeat;
+}
+
+.contact-details.accordion dd span.fax-number, .contact-details-box .item span.fax-number{
+	background:url(../img/icon-fax.png) top left no-repeat;
+}
+
+.contact-details.accordion dd span.fax-number, .contact-details-box .item span.fax-number{
+    background:url(../img/icon-fax.png) top left no-repeat;
+}
+
+.contact-details.accordion dd span.fax-number div, .contact-details-box .item span.fax-number div{
+	margin-left:-20px;
+	background:url(../img/icon-email.png) top left no-repeat;
+	padding-left:20px;
+	margin-top:5px;
+}
+
+.contact-details.accordion dd span.fax-number u, .contact-details-box .item span.fax-number u{
+    margin-left:-20px;
+    background:url(../img/icon-email.png) top left no-repeat;
+    padding-left:20px;
+    margin-top:5px;
+    text-decoration: none;
+}
+
+.contact-details.accordion dd span.fax-number div b{
+	font-size: 11px;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.contact-modal #alerts {
+    padding: 1rem;
+    display: none;
+}
+
+.contact-modal #alerts.show {
+    display: block;
+}
+
+
+
+.contact-modal #alerts ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style: none;
+    color: #fff;
+    padding: 1rem;
+}
+
+.contact-modal #alerts.success {
+    background-color: #2ecc71;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.contact-modal #alerts.error ul {
+    background-color: #e74c3c;
+}
+
+.contact-modal #alerts li {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,305 @@
+ul.grid {
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(176,184,189);
+    list-style-type: none;
+}
+
+ul.grid > li {
+    /*height: 35%;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color: #fff;
+    position: relative;
+
+}
+
+ul.grid .grid-content {
+    height: 100%;
+    padding: 1em;
+
+}
+
+ul.grid .grid-content ul {
+    list-style-type: square;
+
+}
+
+ul.grid .grid-content.lead {
+    display: table;
+}
+
+ul.grid .grid-content.lead h3 {
+    text-align: center;
+    display: table-header-group;
+
+}
+
+
+ul.grid .grid-content p.lead {
+/*    background-color: red;*/
+    font-size: 1.2rem;
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+ul.grid > li.double-item {
+    height: 66.66666%;
+}
+
+ul.grid > li.double-item .grid-content {
+    position: relative;
+}
+
+ul.grid > li.double-item a.read-more.read-more-bottom {
+    position: absolute;
+}
+
+ul.grid > li.has-read-more .grid-content {
+    padding-bottom: 50px;
+}
+
+
+ul.grid > li.has-read-more .grid-content.grid-content-bottom {
+    height:84%;
+}
+
+ul.grid > li.has-read-more .grid-content.grid-content-bottom, ul.grid > li.double-item .grid-content {
+    height: 50% !important;
+}
+
+ul.grid > li.has-read-more .grid-content.grid-content-gray{
+	background : #4A5664;
+}
+ul.grid > li a.read-more {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B7C5C8;
+    padding: 10px;
+    font-family:"Roboto";
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height:140%;
+    color:rgb(39,48,52);
+    text-align:center;
+    text-decoration: none;
+
+}
+ul.grid > li a.read-more.read-more-bottom {
+	position:relative;
+}
+
+ul.grid > li a.read-more:hover {
+    background-color: #d3dbdd;
+}
+.lead-pic img, ul.grid > li img {
+    margin: 0 auto;
+	width:100%;
+	height:100%;
+}
+
+ul.grid > li.tall img {
+    margin: 5px 0;
+}
+
+
+ul.grid > li p {
+    font-size: 0.9em;
+    font-family:"Roboto";
+    font-weight: 300;
+	color:#000;
+    margin-bottom: 0px;
+}
+
+ul.grid > li h3 {
+    color: #FFF;
+    font-family:"Roboto";
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1;
+
+}
+
+
+li.lead-pic {
+    background: url('../img/sustainability-social-lead-pic.jpg') center bottom no-repeat;
+    background-size: cover;
+    text-align:center;
+    color: #fff;
+    position: relative;
+    display: table;
+}
+
+li.lead-pic.lead-pic-social {
+    background: url('../img/sustainability-social.jpg') center center no-repeat;
+	background-size: cover;
+}
+li.lead-pic.lead-pic-environmental {
+   background: url('../img/sustainability-environmental.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+li.lead-pic.lead-pic-corporate{
+   background: url('../img/sustainability-corporate.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+ul.grid > li.lead-pic {
+    min-height: 400px;
+}
+
+li.lead-pic .grid-content {
+    display: table-cell;
+    vertical-align: bottom;
+}
+li.lead-pic.our-values-page .grid-content {
+	vertical-align:top;
+}
+
+li.lead-pic .grid-content {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+li.lead-pic .content {
+    width: 100%;
+    max-width: 600px;
+    padding: 5%;
+    overflow: hidden;
+
+}
+
+li.lead-pic h2 {
+    font-family:"Roboto";
+    font-weight: 300;
+    font-size: 1em;
+    line-height:1.25;
+    margin: 10px 0;
+    color: #fff;
+
+}
+
+li.lead-pic p.head {
+    font-family:"Old Standard TT Italic";
+    font-style:italic;
+
+    line-height:110%;
+    font-size: 1.2em;
+    margin: 15px 0 0 0;
+}
+li.lead-pic p.sub {
+    margin: 0;
+    font-size: 1em;
+}
+
+ul.grid > li.blue-gray {
+    background: #4A5664;
+}
+
+ul.grid > li.gray {
+    background: #7F8C8D;
+}
+ul.grid > li.white, ul.grid .white {
+    background: #ECF0F1;
+    color: #242B31;
+}
+
+ul.grid > li.light-gray {
+    background: #95A5A6;
+}
+
+
+ul.grid > li.women-go-beyond {
+    min-height: 140px;
+    background: #242B31 url('../img/women-go-beyond.png') center no-repeat;
+    background-size: 120px;
+}
+
+
+ul.grid > li.video-holder {
+    padding: 0;
+    background: #000 url('../img/sustainability-social-video.jpg') center bottom no-repeat;
+    background-size: cover;
+    display: table;
+    min-height: 250px;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+}
+
+ul.grid > li.video-holder-fabric.video-holder {
+	background-image:none;
+	background-color:#7F8C8D;
+}
+ul.grid > li.video-holder-fabric.video-holder h3{
+color: #000;
+font-family: "Roboto";
+font-weight: 300;
+font-size: 1em;
+line-height: 1.1;
+}
+
+ul.grid > li.video-holder .video-content {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.15s opacity ease-in;
+    text-align:center;
+
+}
+ul.grid > li.video-holder :before {
+    content: '';
+    background: url('../img/texture-grid.png');
+    width: 100%;
+    height: 100%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+ul.grid > li.video-holder.active > .video-content {
+    opacity: 0;
+}
+
+
+ul.grid > li.video-holder h3 {
+    font-family:"Roboto";
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1;
+    color: #fff;
+}
+ul.grid > li.video-holder h4 {
+    font-family:"Old Standard TT Italic";
+    font-size: 1.3em;
+    font-style:italic;
+    line-height: 1.2;
+    color:rgb(255,153,255);
+
+}
+
+@media all and (max-width: 768px){
+	ul.grid .grid-content.lead{
+		display:block;
+	}
+
+	ul.grid li{
+		display:block;
+		float:left;
+		width:100%;
+	}
+}

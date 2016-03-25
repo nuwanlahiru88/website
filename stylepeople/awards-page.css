@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.grid > li.full-tall {
+height: 100%;
+}
+
+.main-section.overview-page.award .overview, .main-section.overview-page.award .columns{
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.main-section.overview-page.award .overview h3{
+	text-align:center;
+}
+
+.overview-content-awards .mCustomScrollBox{
+	height:80%;
+}
+
+ul.awards-list li{
+	font-size: 0.8em;
+	line-height: 1.4;
+	text-align:left;
+	margin-bottom:10px;
+	color:#999;
+}
+
+.award .featured-pic {
+	width: 100%;
+	height: 100%;
+	background:url(../img/awards.jpg) center 22% no-repeat;
+	bottom:0px;
+	position:relative;
+	padding:0px;
+	min-height:200px;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.gray{
+	background:none repeat scroll 0 0 #7F8C8D;
+}
+
+div.light-gray{
+	background:none repeat scroll 0 0 #95A5A6;
+}
+
+.main-section.overview-page .overview-content.overview-content-awards{
+
+	width:50%;
+}
+
+.main-section.overview-page.award .columns, .main-section.overview-page.award .main-row{
+	background-color:rgb(31,38,43);
+	height: 100%;
+}
+
+.main-section.overview-page .overview-content.overview-content-awards .content {
+	height:600px;
+	max-height: 600px;
+}
+
+.main-section.overview-page .overview-content.overview-content-awards .content .columns{
+	padding: 0.5rem 0;
+}
+
+h3.title-gray{
+	color:#B0B8BD;
+}
+
+.overview-page .content ul.awards-list li{
+	background:url("../img/our-value-arrow.png")left 5px no-repeat;
+	padding: 2px 0 2px 20px;
+}
+
+ul.grid.award-grids li{
+	position:relative;
+	float:left;
+	list-style-type:none;
+}
+
+ul.grid.award-grids li.award-img {
+    min-height: 250px;
+}
+
+
+ul.grid.award-grids li.high-grid{
+	height:66.66%;
+	overflow:hidden;
+	background-color:#000;
+	width:100%;
+}
+ul.grid.award-grids li.high-grid img{
+	max-width:100%;
+	width:100%;
+	height:auto;
+}
+.award-grids li.short-grid{
+	height:33.34%;
+	vertical-align:middle;
+	width:100%;
+    -webkit-overflow-scrolling: touch;
+	overflow-x:auto;
+	overflow-y:hidden;
+}
+
+div.awards-years{
+	padding:0px;
+	margin:0px;
+	display: table;
+	width:auto;
+	height:100%;
+}
+
+
+
+div.awards-years   a{
+	padding:0px 30px  0px 30px;
+	color:#FFF;
+	display: table-cell;
+	height:100%;
+	vertical-align:middle;
+}
+div.awards-years   a:nth-child(even){
+	background:#35424A;
+}
+div.awards-years   a:nth-child(odd){
+	background:#29333A;
+}
+div.awards-years  a:hover{
+	color:#E74C3C;
+	background-color:#B7C5C8;
+}
+
+
+
+ul.award-event li{
+	list-style-image:url(../img/our-value-arrow.png);
+	font-size:13px;
+	margin-bottom:4px;
+}
+
+.award-img{
+    background:url(../img/awards-banner.jpg) center no-repeat;
+    background-size:100%;
+}
+
+
+.reveal-modal.gridpopup.gridawards, .reveal-modal.gridpopup.wgb-grid{
+    max-height:100%;
+    overflow-y:visible;
+    height: auto;
+}
+
+.awards-out, .wgb-grid-item{
+    overflow: auto;
+    max-height: 400px;
+    width:100%;
+    padding: 15px;
+}
+
+.fabric-grid-item{
+    overflow: auto;
+    max-height: 400px;
+    width:100%;
+    padding: 15px;
+}

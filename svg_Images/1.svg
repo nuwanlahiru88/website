@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.50657in" height="3.52153in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1.86329 1.87124"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#C2C1C1}
+    .fil1 {fill:#DA251D}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M0.913309 0.0663735c0.515879,-0.0117446 0.827383,0.378055 0.87305,0.74952 -0.569753,0 -1.1395,0 -1.70925,0 0.0352359,-0.334608 0.320326,-0.737776 0.836205,-0.74952z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M0.0751328 0.837201l0.847096 0 0 0.96309c-0.441286,0.00785135 -0.907943,-0.367379 -0.847096,-0.96309z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M0.948093 0.836759l0.849609 0c0.0378906,0.381603 -0.223139,0.940281 -0.849609,0.963963l0 -0.963963z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_337617152">
+   <g>
+    <ellipse id="_144419480" class="fil0" cx="0.931647" cy="0.935622" rx="0.931647" ry="0.935622"/>
+    <path id="_144419192" class="fil1" d="M0.0759277 0.831448c0.051585,-0.42673 0.415101,-0.757508 0.855719,-0.757508 0.440619,0 0.804134,0.330777 0.855719,0.757508 7.32207e-005,0.000600409 0.000144349,0.00120291 0.000215478,0.00180332l0.0701977 0c-0.0507921,-0.468501 -0.446134,-0.833251 -0.926133,-0.833251 -0.479999,0 -0.87534,0.36475 -0.926133,0.833251l0.0701956 0c7.32207e-005,-0.000600409 0.000144349,-0.00120291 0.00021757,-0.00180332z"/>
+    <path id="_144419072" class="fil0" d="M0.00728441 0.816528c0.593269,0 1.18583,0.000418404 1.77894,0.000617146 0.0232361,6.27606e-006 0.046493,-0.000449784 0.0697437,-0.000449784 0.00149998,0.010707 0.00230959,0.023531 0.00330957,0.034489l-1.85486 -8.78648e-005c-0.00116944,0 0.00265268,-0.0345685 0.00286188,-0.0345685z"/>
+   </g>
+   <rect id="_144418664" class="fil0" x="0.919965" y="0.871372" width="0.0285519" height="0.992178"/>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <image transform="matrix(1 0 0 1 -1.67618 -0.862307)" x="1.75328" y="0.931789" width="1.70925" height="0.746411" xlink:href="1.svg_Images\1.svg_ImgID1.jpg"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image transform="matrix(1 0 0 1 -1.68089 0.12209)" x="1.75328" y="0.715111" width="0.849835" height="0.96309" xlink:href="1.svg_Images\1.svg_ImgID2.jpg"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image transform="matrix(1 0 0 1 -0.805191 0.122521)" x="1.75328" y="0.714238" width="0.849609" height="0.963963" xlink:href="1.svg_Images\1.svg_ImgID3.jpg"/>
+  </g>
+ </g>
+</svg>

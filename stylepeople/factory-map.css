@@ -1,0 +1,136 @@
+.factory-info-table {
+    text-align: left;
+    padding: 0;
+    border: 0;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border: 0;
+    top: 4rem;
+}
+
+
+
+.factory-table .table-header img.logo {
+    margin-right: 10px;
+}
+
+.factory-table {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.factory-table .thumb {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.factory-table th {
+    background: #B7C5C8 url('../img/mas-logo-small.png') 1rem 10px no-repeat;
+    background-size: 100px;
+    font-family:"Roboto";
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0.7rem 1rem;
+    vertical-align: bottom;
+}
+.factory-table th span {
+    display: block;
+    margin-top: 1rem;
+}
+
+.factory-table th .table-close{
+    background: url('../img/icon-close.png') right center no-repeat;
+    width: 40px;
+    height: 30px;
+    float: right;
+    text-indent: -9999px;
+}
+
+
+
+.factory-table th img.logo {
+    margin-right: 10px;
+}
+
+.factory-table tr {
+    background-color: #CBD0D3;
+}
+
+.factory-table tr:nth-child(even) {
+    background-color: #BDC3C7;
+}
+
+.factory-table tr td {
+    font-family:"Roboto";
+    font-weight: 300;
+    color:rgb(31,38,43);
+    margin: 0;
+    padding: 0.4rem 0.8rem;
+    vertical-align: top;
+    border-top: 1px solid #7D8788;
+}
+
+.factory-table tr td.left-col {
+    border-right: 1px solid #7D8788;
+    text-align: right;
+}
+
+.factory-table tr td.compact {
+    padding: 0;
+    /*border-left: 0;
+    border-right: 0;*/
+}
+
+.factory-table tr td.location {
+    background: url('../img/icon-factory-marker.png') 10px center no-repeat;
+    background-size: 10px;
+    padding: 0.5rem 0.5rem;
+    text-indent: 20px;
+}
+
+
+
+.main-section ul#circular-factory-map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+}
+
+.main-section #circular-factory-map li.factory-marker {
+    background-color: #CBD0D3;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+
+}
+
+
+
+.main-section #circular-factory-map li.factory-marker:after{
+    /*background: url('../img/icon-factory-marker.png') left center no-repeat;
+    background-size: 10px;*/
+    content: attr(data-location);
+    display: block;
+    opacity: 0.6;
+    font-size: 0.85em;
+    /*text-indent: 15px;*/
+}
+
+
+.main-section #circular-factory-map li.factory-marker:nth-child(even) {
+    background-color: #BDC3C7;
+}
+
+.main-section #circular-factory-map li:hover, .main-section #circular-factory-map li:active{
+    background-color: #E74C3C !important;
+    color: #fff;
+}
+

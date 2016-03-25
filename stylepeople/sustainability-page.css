@@ -1,0 +1,188 @@
+
+.sustainability-box .columns {
+	height:100%;
+	display:table-row;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	vertical-align:middle;
+}
+
+.sustainability-box .columns a{
+	 width:100%;
+	 height:100%;
+	 float:left;
+	 position: relative;
+	 overflow:hidden;
+}
+ .empoerment-overview .sustain-images{
+	 float:left;
+	 width:100%;
+	 height:84%;
+}
+.sustainability-box.empoerment-overview div.sustainability-info{
+	 height:16%;
+	 width:100%;
+	 float:left;
+	 position:relative;
+ }
+
+ .sustainability-box.empoerment-overview .columns div.sustainability-info{
+	background:rgb(40,48,53);
+}
+.sustainability-box.empoerment-overview  .columns a:hover div.sustainability-info{
+	background:#3A464E;
+}
+.sustainability-box.empoerment-overview  .columns a div.sustainability-info h2{
+	font-size: 13px;
+line-height: 1.3em;
+color: #7F8C8D;
+font-family: "Roboto";
+font-weight: 300;
+font-style: normal;
+text-align: center;
+display: block;
+padding: 0px 0px 5px 0px;
+margin: 0px;
+}
+.sustainability-box.empoerment-overview .columns a div.sustainability-info  span{
+text-align: center;
+color: #fff;
+font-family: "Roboto";
+font-weight: 300;
+line-height: 1.4;
+font-size: 0.8em;
+padding: 5px;
+display: block;
+margin: 0px;
+font-style:normal;
+}
+
+.sustainability-box.empoerment-overview  .columns a:hover div.sustainability-info u{
+	background:#d3dbdd;
+}
+
+.sustainability-box.empoerment-overview  .columns a div.sustainability-info u{
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: #B7C5C8;
+z-index: 4;
+padding: 10px;
+font-family: "Roboto";
+font-weight: 300;
+font-size: 0.8em;
+line-height: 140%;
+color: rgb(39,48,52);
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+/*.sustainability-box.empoerment-overview .columns img {
+	 width:100%;
+	 min-width:100%;
+	 height:100%;
+}*/
+.sustainability-box .columns img{
+	 /*width:100%;
+	 min-width:350px;*/
+	 height: 100%;
+	 max-width: none;
+	 width: auto;
+	 left: 50%;
+	 top: 50%;
+	 position: absolute;
+	 transform: translate3d(-50%, -50%, 0) scale(1.01);
+	 transition: all 0.4s ease;
+	 transform-origin: center;
+}
+
+
+
+.sustainability-box .columns img:nth-child(1){
+	position:absolute;
+	opacity: 0;
+	z-index:2;
+}
+.sustainability-box .columns img:nth-child(2){
+	z-index:1;
+
+}
+.sustainability-box .columns a:hover img:nth-child(1){
+	opacity: 1;
+
+}
+.sustainability-box .columns a:hover img:nth-child(2){
+	opacity: 0;
+}
+
+.sustainability-box .columns a:hover img {
+    transform: translate3d(-50%, -50%, 0) scale(1.07);
+}
+
+.sustainability-box .columns div.sustainability-info{
+	width:100%;
+	background:#B7C5C8;
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+	padding:20px 5%;
+	z-index:4;
+}
+
+.sustainability-box.sustainability-overview .columns div.sustainability-info{
+	background:rgba(00, 00, 00, 0.7);
+}
+.sustainability-box.sustainability-overview  .columns a:hover div.sustainability-info{
+	background:rgba(00, 00, 00, 0.7);
+}
+.sustainability-box.sustainability-overview .columns a div.sustainability-info h2{
+	color:#FFF;
+}
+.sustainability-box .columns a div.sustainability-info h2{
+font-family: "Roboto";
+font-weight: 300;
+text-transform: uppercase;
+color: rgb(39,48,52);
+font-style: normal;
+font-size:13px;
+transition: color 0.4s ease;
+}
+.sustainability-box .columns a:hover div.sustainability-info{
+	background:#d3dbdd;
+}
+.sustainability-box .columns a:hover div.sustainability-info h2{
+	color:#E74C3C;
+}
+
+.sustainability-box .columns a div.sustainability-info  span{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-style:normal;
+	color: #E74C3C;
+	font-size:12px;
+}
+
+.empowerment-text span{
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.25;
+	margin: 10px 0;
+	color: #7F8C8D;
+}
+
+.empowerment-text .content {
+	width: 100%;
+	max-width: 600px;
+	padding: 5%;
+	overflow: hidden;
+}
+
+.reveal-modal.text-popup p {
+    color: #1F262B;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 15px;
+    font-family: "Roboto";

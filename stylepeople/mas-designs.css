@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#active-menu-pic-svg g.masdesign-overview image,  .row-pic .lead-picture.masdesign-overview img {
+		position:absolute; 
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: cf4FadeInOut2;
+    animation-timing-function: ease-in-out; 
+}
+ .row-pic .lead-picture.masdesign-overview  {
+	 overflow:hidden;
+	 background-image:none;
+ }
+@keyframes cf4FadeInOut2 {
+  0% {
+    opacity:1;
+  }
+  33% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  83% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#active-menu-pic-svg g.masdesign-overview image:nth-of-type(1), .row-pic .lead-picture.masdesign-overview img:nth-of-type(1) {
+  animation-delay: 4s;
+}
+#active-menu-pic-svg g.masdesign-overview image:nth-of-type(2), .row-pic .lead-picture.masdesign-overview img:nth-of-type(2)  {
+  animation-delay: 2s;
+}

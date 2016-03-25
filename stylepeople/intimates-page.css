@@ -1,0 +1,88 @@
+li.lead-pic.initimate-page {
+	background: url('../img/initimates-lead-pic.jpg') center bottom no-repeat;
+	background-size:cover;
+}
+
+li.lead-pic.wgb-page {
+	background: url('../img/wgb-lead-pic.jpg') center bottom no-repeat;
+	background-size:cover;
+}
+
+li.lead-pic.swimwear-page {
+	background: url('../img/swimwear-lead-pic.jpg') center bottom no-repeat;
+	background-size:cover;
+}
+.overview-page .lead-picture.lead-picture-intimates{
+	    background: url('../img/intimates-mini.jpg') top center  no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.overview-page .lead-picture.lead-picture-intimates-bodyline{
+	    background: url('../img/intimates-bodyline-mini.jpg')  center  no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.overview-page .lead-picture.lead-picture-vacancy{
+	    background: url('../img/overview-vacancy-mini.jpg') top no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+
+.overview-page .lead-picture.lead-picture-vacancy-intern{
+	    background: url('../img/overview-vacancy-internship.jpg') center    no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.overview-page .lead-picture.lead-picture-vacancy-management{
+	    background: url('../img/overview-vacancy-management.jpg') center 40%  no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.overview-page .lead-picture.lead-picture-mas-design{
+    background: url('../img/mas-design1-mini.jpg') top center  no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul.grid > li.video-holder.grid-slider{
+	background-image:none;
+}
+ul.grid > li.grid-slider div, ul.grid > li.grid-slider ul, ul.grid > li.grid-slider ul li {
+	height:100%;
+	width:100%;
+	padding:0px;
+}
+
+ul.grid > li.grid-slider  img{
+	width: auto;
+	height: 100%;
+	max-height:100%;
+	max-width: none;
+}
+
+
+.fadein { position:relative; }
+.fadein img {
+	position:absolute;
+	left:50%;
+	top:50%;
+	display:none;
+	transform: translate3d(-50%, -50%, 1px); }
+.fadein img:first-child(){display:inline-block;}

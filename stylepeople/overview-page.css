@@ -1,0 +1,149 @@
+
+.main-section.overview-page .overview {
+    /*float: right;*/
+    display: table;
+    height: 100%;
+    max-width: 800px;
+    padding: 1rem 0;
+
+    /*padding-top: 10%;*/
+
+}
+
+.main-section.overview-page .overview-content {
+    width: 100%;
+    height: 100%;
+
+    /*background: rgba(255,0,0,0.5);*/
+    font-family:"Roboto";
+    font-weight:300;
+    line-height:140%;
+    color:rgb(31,38,43);
+    text-align:left;
+    display: table-cell;
+    vertical-align: top;
+
+}
+
+#block-sl{
+    z-index: 300;
+}
+
+.main-section.overview-page .overview-content h2 {
+    font-family:"Roboto";
+    font-size: 1.3em;
+    font-weight:700;
+    line-height:150%;
+    color:rgb(85,100,114);
+    text-align:left;
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #A0A8A9;
+}
+
+.main-section.overview-page .overview-content p {
+    font-size: 0.95em;
+    font-weight: 300;
+}
+
+.overview-grids .item {
+    padding: 1.2rem 1rem;
+    font-family:"Roboto";
+    font-size: 1em;
+    line-height: 1.4;
+    font-weight:300;
+    background-color:rgb(176,184,189);
+	display:none;
+    color:rgb(36,43,49);
+
+}
+.overview-grids .owl-buttons {
+    display: none;
+}
+
+.overview-page .lead-picture {
+    background: url('../img/apparel-active-wear3.jpg') center 30% no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    height: 250px;
+}
+
+.overview-page .lead-picture.apperal-active{
+    background: url('../img/apparel-active-wear5.jpg') center 30% no-repeat;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    height: 250px;
+}
+
+.overview-page .lead-picture.lead-picture-vacancy-career{
+    background: url('../img/overview-vacancy-career-mini.jpg') center 30% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 250px;
+}
+
+.overview-page .lead-picture.lead-picture-sustainability-environment{
+    background: url('../img/sustainability-overview-landing-mini.jpg') center 30% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 250px;
+}
+
+.overview-page .lead-picture.lead-picture-swimwear{
+    background: url('../img/swimwear.jpg') center 30% no-repeat;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    height: 250px;
+}
+
+.overview-page .lead-picture.lead-picture-empowering-communities{
+    background: url('../img/overview-community-empowerment.jpg') center 30% no-repeat;
+        -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    height: 250px;
+}
+
+.overview-page .lead-picture.lead-picture-women-go-beyond{
+    background: url('../img/overview-wgb.jpg') center 30% no-repeat;
+        -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    height: 250px;
+}
+
+
+
+.overview-page-menu text, .overview-page-menu-tab text {
+    font-family:"Roboto";
+    font-weight: 300;
+}
+
+
+.main-section.overview-page .row > .columns:first-child {
+    position: relative;
+
+}
+
+.overview-grids-svg {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 50%;
+    margin-top: -800px;
+    width: 100%;
+    height: 1600px;
+    display: none;
+}
